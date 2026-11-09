@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleName</key><string>LinkRouter</string>
+    <key>CFBundleDisplayName</key><string>LinkRouter</string>
+    <key>CFBundleExecutable</key><string>LinkRouter</string>
+    <key>CFBundleIdentifier</key><string>co.linkrouter.mac</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.0.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>CFBundleURLTypes</key><array><dict>
+        <key>CFBundleURLName</key><string>Web and email links</string>
+        <key>CFBundleURLSchemes</key><array><string>http</string><string>https</string><string>mailto</string></array>
+        <key>CFBundleTypeRole</key><string>Viewer</string>
+    </dict></array>
+</dict></plist>
